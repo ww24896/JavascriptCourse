@@ -1,6 +1,7 @@
 # JavascriptCourse
 這是專門提供 JavaScript 課程的共讀平台  
 Udemy Link : https://www.udemy.com/es6-in-depth/
+講者的 GitHub : https://github.com/15Dkatz/es6-in-depth-tutorial
 
 ## 參與者
 常大 | sprewell20051116  
