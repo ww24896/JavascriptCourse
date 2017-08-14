@@ -6,7 +6,7 @@ Udemy Link : https://www.udemy.com/es6-in-depth/
 ## 參與者
 常大 | sprewell20051116  
 不點 | simishow  
-德毅 |   
+德毅 | ww24896      
 威廷 |   
 
 ## 日程表
