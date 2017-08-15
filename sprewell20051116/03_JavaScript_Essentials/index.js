@@ -23,3 +23,29 @@ console.log($_a);
 //
 var z = 10 + 4 - 2;
 console.log(z); // 12
+
+var z = 10 * 4 / 2;
+console.log(z); // 20
+
+var a = "Good " + "Day";
+console.log(a); // Good Day
+
+var b = 11 % 3;
+console.log(b); // 2
+
+var b = 9 % 3;
+console.log(b); // 0
+
+
+// Subject05
+function check() {
+  // variable a = 10;
+  var a = 10;
+  // Add 5 to a, and I want this to line to be a comment;
+  var b = a + 5;
+  return b;
+}
+
+console.log("Subject05 check() = " + check());
+
+//Subject07
