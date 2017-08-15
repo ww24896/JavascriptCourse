@@ -7,30 +7,30 @@ Udemy Link : https://www.udemy.com/es6-in-depth/
 常大 | sprewell20051116  
 不點 | simishow   
 威廷 | ww24896  
-德毅 |  
+德毅 | chouderek  
 
 ## 日程表
-### WW01
-```  
+### WW01 (08/23)  
+```  
 Subject 01 : Introducing the Course
 Subject 02 : Introducing JavaScript
 Subject 03 : JavaScript Language and Essentials
 Subject 04 : Setting up an ES6 Development Environment
 ```
-### WW02
-```  
+### WW02 (08/30)  
+```   
 Subject 05 : Understanding ES6 Essentials Part 1
 Subject 06 : Understanding ES6 Essentials Part 2
 Subject 07 : Classes and Prototypes
 ```
-### WW03
-```  
+### WW03 (09/06)  
+```  
 Subject 08 : Data Structures in ES6
 Subject 09 : Closures in ES6
 Subject 10 : ES6 Generators
 ```
-### WW04
-```  
+### WW04 (09/13)
+```  
 Subject 11 : Asynchronous Programming, Promises, and APIs
 Subject 12 : ES7 and ES8 Proposals
 Subject 13 : Project: A React and ES6 Application
