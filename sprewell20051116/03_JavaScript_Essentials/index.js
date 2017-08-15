@@ -1,3 +1,5 @@
+console.log("= Subject03 === ");
+
 var a, b;
 a = 'hello';
 b = a + ' world';
@@ -18,6 +20,8 @@ console.log(a);
 var $_a = 1;
 console.log($_a);
 
+
+console.log("= Subject04 === ");
 //
 // Subject03 - 04
 //
@@ -36,7 +40,7 @@ console.log(b); // 2
 var b = 9 % 3;
 console.log(b); // 0
 
-
+console.log("= Subject05 === ");
 // Subject05
 function check() {
   // variable a = 10;
@@ -48,4 +52,23 @@ function check() {
 
 console.log("Subject05 check() = " + check());
 
+//
 //Subject07
+//
+console.log("= Subject07 === ");
+function print () {
+  console.log("A working function");
+}
+print();
+
+function print2 (a, b, c) {
+  console.log(a + b + c);
+}
+print2("One ", "Two ", "Three");
+
+var multiply = function (a, b) {
+  return a * b;
+}
+
+var product = multiply(10, 5);
+console.log(product);
