@@ -1,9 +1,9 @@
 # 01 Introducing JavaScript
 - Copy full path of `index.html` and paste to Web browser
-- Right click and chose inspector  
-- Select console and check JavaScript execution log.
+- Right click and chose `inspector`  
+- Select `console` and check JavaScript execution log.
 
-## About
+### About
 #### index.html
 ```
 ...
