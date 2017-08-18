@@ -1,0 +1,15 @@
+{
+  "name": "04_01_Setting_Up_ES6_Dev_Environment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
+}
