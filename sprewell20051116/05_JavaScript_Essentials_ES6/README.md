@@ -2,7 +2,7 @@
 
 ## Setup webpack
 ### 01 - 建立專案資料夾
-可以建立隨意的名字作為專案資料夾，然後執行  `npm init -y` 建立 `package.json`。`package.json` 主要用於管理專案中的套件。
+可以建立隨意的名字作為專案資料夾，然後執行  `npm init -y` 建立 `package.json`。`package.json` 主要用於管理專案中的套件。
 
 ```
 $ mkdir es6
@@ -30,14 +30,14 @@ $ npm init -y
 ```
 
 ### 02 - 安裝 webpack
-產生 `node_modules` 資料夾，裡面存放 node.JS 使用的 module 們。
+產生 `node_modules` 資料夾，裡面存放 node.JS 使用的 module 們。
 ```
 $ npm install --save-dev webpack
 ```
 
 
-### 03 - 新增應用程式資料夾 `app` 跟 `build`
-新增 NodeJS 應用程式的資料夾後加入 index.html 以及 index.js 做為第一個專案練習。
+### 03 - 新增應用程式資料夾 `app` 跟 `build`
+新增 NodeJS 應用程式的資料夾後加入 index.html 以及 index.js 做為第一個專案練習。
 ```
 $ mkdir app
 $ mkdir build
@@ -77,7 +77,6 @@ module.exports = {
 
 ### 05 - 執行並打包 webpack
 當執行 `npm run build` 後，系統會執行 webpack 的指令並打包，開啟 `index.html` 後就能看到程式正確執行。成功執行後可以看到 build 資料夾中多了一個 `bundle.js`
-
 ``` 
 $ npm run build
 ```
