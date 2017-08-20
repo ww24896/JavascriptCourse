@@ -48,7 +48,7 @@ $ touch build\index.html
 在 index.js 中輸入 `document.log("Hi")` 以便日後觀察
 
 ### 04 - 新增 webpack configuration file `webpack.config.js`
-這邊注意與課程中教學不同，要讓 webpack 找到 build 資料夾需要使用 `path.resolve(__dirname,'build')` 後面才可以正確執行。  
+新增 `webpack.config.js`。這邊注意與課程中教學不同，要讓 webpack 找到 build 資料夾需要使用 `path.resolve(__dirname,'build')` 後面才可以正確執行。  
 相關 issue : https://github.com/sprewell20051116/JavascriptCourse/issues/5
 
 ```
@@ -64,9 +64,9 @@ module.exports = {
   }
 }
 ```
-編輯完 `webpack.config.js`後，再編輯`webpack.config.js`的 script。告訴 NodeJS 要去 build `webpack`。
+編輯完 `webpack.config.js`後，再編輯`package.json`的 script。告訴 NodeJS 要去 build `webpack`。
 ```
-# webpack.config.js  
+# package.json
 
 ...
 "scripts": {

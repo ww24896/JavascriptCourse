@@ -41,14 +41,14 @@ $ npm install --save-dev webpack
 ```
 $ mkdir app
 $ mkdir build
-$ touch app\index.js
-$ touch build\index.html
+$ touch app/index.js
+$ touch build/index.html
 ```
 在 index.html 中建立 html 基本的架構。
 在 index.js 中輸入 `document.log("Hi")` 以便日後觀察
 
 ### 04 - 新增 webpack configuration file `webpack.config.js`
-這邊注意與課程中教學不同，要讓 webpack 找到 build 資料夾需要使用 `path.resolve(__dirname,'build')` 後面才可以正確執行。  
+新增 `webpack.config.js`。這邊注意與課程中教學不同，要讓 webpack 找到 build 資料夾需要使用 `path.resolve(__dirname,'build')` 後面才可以正確執行。  
 相關 issue : https://github.com/sprewell20051116/JavascriptCourse/issues/5
 
 ```
@@ -64,7 +64,7 @@ module.exports = {
   }
 }
 ```
-編輯完 `webpack.config.js`後，再編輯`webpack.config.js`的 script。告訴 NodeJS 要去 build `webpack`。
+編輯完 `webpack.config.js`後，再編輯 `package.json`的 script。告訴 NodeJS 要去 build `webpack`。
 ```
 # webpack.config.js  
 
@@ -102,4 +102,4 @@ bundle.js  2.62 kB       0  [emitted]  main
 
 #### ref
 - 使用 Webpack 建立 React 專案開發環境 : https://rhadow.github.io/2015/04/02/webpack-workflow/
-- WEBPACK入門教學筆記 : http://blog.kkbruce.net/2015/10/webpack.html#.WZbzEZOg9Pt 
+- WEBPACK入門教學筆記 : http://blog.kkbruce.net/2015/10/webpack.html#.WZbzEZOg9Pt
