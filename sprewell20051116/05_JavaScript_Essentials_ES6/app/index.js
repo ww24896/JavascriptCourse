@@ -83,3 +83,41 @@ console.log(c);
 // console.log(a);
 // console.log(greeting_41);
 // console.log(greeting_41_2);
+
+console.log("--- Class 42 - Spread Operator and Rest Parameters ")
+let a_42 = [20, 30 ,40];
+let b_42 = [10, 50];
+let b_42_2 = [10, ...a_42, 50]; // insert a_42 into b_42_2 = [10, 20, 30, 40, 50]
+console.log(b_42_2);
+
+let stringA = ["Dana", "Erick", "Frank"];
+let stringB = ["Alice", "Bob", "Carl", ...stringA];// string array can also use spread operator to insert
+console.log(stringB);  // ["Alice", "Bob", "Carl", "Dana", "Erick", "Frank"]
+
+function collect(...a) {
+  console.log(a);
+}
+
+collect(1, 2, 3, 4, 5); //[1, 2, 3, 4, 5]
+collect(3, 6, 9, 12, 15); //[3, 6, 9, 12, 15]
+
+console.log("--- Class 43 - Destructuring Assignment on Array and Objects");
+let z = [4, 5, 6];
+// let four = z[0];
+// let five = z[1];
+let [four, five] = z;
+console.log(four, five); // 4, 5
+
+let animals = ["Simba", "Zazu", "Ed"];
+let [lion, bird] = animals;
+console.log(lion, bird); // Simba, Zazu
+
+let king = {
+            name: "Mufasa",
+            kids: 1};
+let name = king.name;
+let kids = king.kids;
+console.log(name, kids);
+
+let {nameObj, kidsObj} = king;
+console.log(nameObj, kidsObj);
