@@ -129,8 +129,8 @@ module: {
 package.json
 ...  
   "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server"
+    "build": "webpack",
++   "start": "webpack-dev-server"
   },
   "bable": {
 +   "presets": ["es2015"]
